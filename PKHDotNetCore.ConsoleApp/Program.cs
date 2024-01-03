@@ -4,6 +4,8 @@ using PKHDotNetCore.ConsoleApp.AdoDotNetExamples;
 using PKHDotNetCore.ConsoleApp.DapperExamples;
 using PKHDotNetCore.ConsoleApp.EFCoreExamples;
 using PKHDotNetCore.ConsoleApp.HomeWork;
+using PKHDotNetCore.ConsoleApp.HttpClientExamples;
+using PKHDotNetCore.ConsoleApp.RestClientExamples;
 
 // AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 // adoDotNetExample.Run();
@@ -17,8 +19,14 @@ using PKHDotNetCore.ConsoleApp.HomeWork;
 // UserAdoDotNet userAdoDotNet = new UserAdoDotNet();
 // userAdoDotNet.Run();
 
-UserDapper userDapper = new UserDapper();
-userDapper.Run();
+// UserDapper userDapper = new UserDapper();
+// userDapper.Run();
+
+// HttpClientExample httpClientExample = new HttpClientExample();
+// await httpClientExample.Run();
+
+RestClientExample restClientExample = new RestClientExample();
+await restClientExample.Run();
 
 Console.ReadKey();
 
